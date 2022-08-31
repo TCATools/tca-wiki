@@ -1,9 +1,6 @@
 name: Sync-To-TGIT 
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
   push-to-mirror:
